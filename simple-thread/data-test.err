@@ -1,0 +1,301 @@
+#0: FuncEntry 0xfffff7e2ccb0
+#0: FuncExit
+#0: FuncEntry 0xfffff7fbdfbc
+#0: FuncExit
+#0: FuncEntry 0xfffff7e5c2bc
+#0: FuncExit
+#0: FuncEntry 0xfffff7e5c2c8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e5c2e0
+#0: FuncExit
+#0: FuncEntry 0xfffff7e2cd44
+#0: FuncExit
+#0: FuncEntry 0xfffff7e2cf94
+#0: FuncExit
+#0: FuncEntry 0xfffff7fbdfbc
+#0: FuncExit
+#0: FuncEntry 0x0000004d9070
+#0: FuncEntry 0x0000004217c0
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncEntry 0xfffff7e6b8f4
+#0: FuncExit
+#0: FuncEntry 0xfffff7e43b38
+#0: FuncExit
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncEntry 0xfffff7e42d3c
+#0: FuncExit
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e329b4
+#0: FuncExit
+#0: FuncEntry 0xfffff7e329b4
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e329b4
+#0: FuncExit
+#0: FuncEntry 0xfffff7e329b4
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e329b4
+#0: FuncExit
+#0: FuncEntry 0xfffff7e329b4
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e329b4
+#0: FuncExit
+#0: FuncEntry 0xfffff7e329b4
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0xfffff7e445e8
+#0: FuncExit
+#0: FuncEntry 0x000000421780
+#0: FuncExit
+#0: FuncExit
+#0: FuncExit
+#0: FuncEntry 0xfffff7ab0ae0
+#0: MemoryAccess: @0x0000004d8170 0xfffffffff500 size=8 is_write=0 shadow_mem=0x003fffffd400 {0, 0, 0, 0}
+#0: FuncEntry 0xfffff7ecc40c
+#0: FuncExit
+#0: FuncEntry 0x0000004d81b8
+#0: FuncEntry 0x0000004d8b60
+#0: FuncEntry 0x0000004d8be8
+#0: MemoryAccess: @0x0000004d8d6c 0xfffff7a30378 size=4 is_write=0 shadow_mem=0x003fde8c0de0 {0, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8d80 0xffffffffef98 size=4 is_write=1 shadow_mem=0x003fffffbe60 {0, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8d98 0xfffff7a30378 size=4 is_write=1 shadow_mem=0x003fde8c0de0 {c0000000208e, 0, 0, 0}
+#0: FuncExit
+#0: MemoryAccess: @0x0000004d8c14 0xffffffffefa0 size=8 is_write=0 shadow_mem=0x003fffffbe80 {0, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8c54 0xfffff7a30378 size=4 is_write=0 shadow_mem=0x003fde8c0de0 {400000002090, 0, 0, 0}
+#0: FuncEntry 0x0000004d8d10
+#0: MemoryAccess: @0x0000004d8e30 0xfffff7a30378 size=4 is_write=0 shadow_mem=0x003fde8c0de0 {400000002090, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8e48 0xffffffffef98 size=4 is_write=0 shadow_mem=0x003fffffbe60 {40000000208f, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8e60 0xfffff7a30378 size=4 is_write=1 shadow_mem=0x003fde8c0de0 {400000002090, 0, 0, 0}
+#0: FuncExit
+#0: FuncExit
+#0: FuncExit
+#0: MemoryAccess: @0x0000004d81d4 0x000000526cac size=4 is_write=1 shadow_mem=0x00200149b2a0 {0, 0, 0, 0}
+#0: FuncEntry 0x0000004d8460
+#0: MemoryAccess: @0x000000430a14 0x00000108e860 size=1 is_write=1 shadow_mem=0x00200423a180 {0, 0, 0, 0}
+#0: FuncExit
+#0: FuncEntry 0x0000004d8474
+#0: FuncExit
+#0: MemoryAccess: @0x0000004d848c 0x00000108e850 size=8 is_write=1 shadow_mem=0x00200423a140 {0, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d84a0 0x00000108e850 size=8 is_write=0 shadow_mem=0x00200423a140 {60000000209e, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d84c4 0x00000108e830 size=8 is_write=1 shadow_mem=0x00200423a0c0 {0, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d84d8 0x00000108e830 size=8 is_write=0 shadow_mem=0x00200423a0c0 {60000000209f, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8530 0x00000108e850 size=8 is_write=0 shadow_mem=0x00200423a140 {60000000209e, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8550 0x00000108e838 size=8 is_write=1 shadow_mem=0x00200423a0e0 {0, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8564 0x00000108e838 size=8 is_write=0 shadow_mem=0x00200423a0e0 {6000000020a0, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d85bc 0x00000108e850 size=8 is_write=0 shadow_mem=0x00200423a140 {60000000209e, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d85e0 0x00000108e840 size=8 is_write=1 shadow_mem=0x00200423a100 {0, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d85f4 0x00000108e840 size=8 is_write=0 shadow_mem=0x00200423a100 {6000000020a1, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d864c 0x00000108e850 size=8 is_write=0 shadow_mem=0x00200423a140 {60000000209e, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8670 0x00000108e848 size=8 is_write=1 shadow_mem=0x00200423a120 {0, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8684 0x00000108e848 size=8 is_write=0 shadow_mem=0x00200423a120 {6000000020a2, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d86dc 0x00000108e830 size=8 is_write=0 shadow_mem=0x00200423a0c0 {60000000209f, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8700 0x00000108e838 size=8 is_write=0 shadow_mem=0x00200423a0e0 {6000000020a0, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8724 0x00000108e840 size=8 is_write=0 shadow_mem=0x00200423a100 {6000000020a1, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8748 0x00000108e848 size=8 is_write=0 shadow_mem=0x00200423a120 {6000000020a2, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d87a4 0x00000108e830 size=8 is_write=0 shadow_mem=0x00200423a0c0 {60000000209f, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d87c4 0x00000108e838 size=8 is_write=0 shadow_mem=0x00200423a0e0 {6000000020a0, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d87e4 0x00000108e840 size=8 is_write=0 shadow_mem=0x00200423a100 {6000000020a1, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8804 0x00000108e848 size=8 is_write=0 shadow_mem=0x00200423a120 {6000000020a2, 0, 0, 0}
+#0: FuncEntry 0x0000004d8824
+#0: FuncEntry 0x0000004606b0
+#0: FuncEntry 0xfffff7af3664
+#0: FuncExit
+#0: FuncExit
+#0: FuncExit
+#0: MemoryAccess: @0x0000004d8850 0x000000526cac size=4 is_write=0 shadow_mem=0x00200149b2a0 {500000002097, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d887c 0x00000108e838 size=8 is_write=0 shadow_mem=0x00200423a0e0 {6000000020a0, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8890 0xfffff5003c00 size=4 is_write=1 shadow_mem=0x003fd400f000 {60000000209c, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d88b4 0x00000108e830 size=8 is_write=0 shadow_mem=0x00200423a0c0 {60000000209f, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d88c8 0xfffff5003c40 size=4 is_write=1 shadow_mem=0x003fd400f100 {60000000209c, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d88e8 0x00000108e858 size=4 is_write=0 shadow_mem=0x00200423a160 {0, 0, 0, 0}
+#0: FuncEntry 0x0000004d890c
+#0: FuncEntry 0x0000004d8efc
+#0: FuncExit
+#0: FuncEntry 0xfffff7f62f74
+#0: FuncExit
+#0: FuncEntry 0xfffff7f62f88
+#0: FuncExit
+#0: FuncEntry 0x0000004d8fa0
+#0: FuncEntry 0xfffff7fc0340
+#0: FuncExit
+#0: FuncExit
+#0: FuncExit
+#1: FuncEntry 0x00000042abfc
+#0: MemoryAccess: @0x0000004d8924 0x000000526ca8 size=4 is_write=0 shadow_mem=0x00200149b2a0 {500000002097, 0, 0, 0}
+#1: MemoryAccess: @0x0000004d7fb8 0x00000108e838 size=8 is_write=0 shadow_mem=0x00200423a0e0 {6000000020a0, 0, 0, 0}
+#0: FuncEntry 0x0000004d894c
+#1: MemoryAccess: @0x0000004d7fcc 0x00000108e850 size=8 is_write=0 shadow_mem=0x00200423a140 {60000000209e, 0, 0, 0}
+#0: FuncEntry 0x0000004d8efc
+#1: FuncEntry 0x0000004d7fdc
+#0: FuncExit
+#0: FuncEntry 0xfffff7f62f74
+#0: FuncExit
+#0: FuncEntry 0xfffff7f62f88
+#0: FuncExit
+#0: FuncEntry 0x0000004d8fa0
+#1: MemoryAccess: @0x000000430d68 0x00000108e860 size=1 is_write=0 shadow_mem=0x00200423a180 {2099, 0, 0, 0}
+#2: FuncEntry 0x00000042abfc
+#0: FuncExit
+#2: MemoryAccess: @0x0000004d806c 0x00000108e830 size=8 is_write=0 shadow_mem=0x00200423a0c0 {60000000209f, 0, 0, 0}
+#0: FuncExit
+#2: MemoryAccess: @0x0000004d8080 0x00000108e838 size=8 is_write=0 shadow_mem=0x00200423a0e0 {6000000020a0, 4e00000002002, 0, 0}
+#0: FuncEntry 0x0000004d895c
+#2: FuncEntry 0x0000004d8090
+#0: MemoryAccess: @0x000000430d68 0x00000108e860 size=1 is_write=0 shadow_mem=0x00200423a180 {2099, 4800000002006, 0, 0}
+#2: MemoryAccess: @0x000000430d68 0x00000108e860 size=1 is_write=0 shadow_mem=0x00200423a180 {2099, 4800000002006, 0, 0}
+#2: MemoryAccess: @0x000000430d68 0x00000108e860 size=1 is_write=0 shadow_mem=0x00200423a180 {2099, 4800000002006, 8000000020d1, 8800000002006}
+#1: MemoryAccess: @0x000000430d68 0x00000108e860 size=1 is_write=0 shadow_mem=0x00200423a180 {2099, 4800000002006, 8000000020d1, 8800000002006}
+#0: MemoryAccess: @0x000000430d68 0x00000108e860 size=1 is_write=0 shadow_mem=0x00200423a180 {2099, 4800000002006, 8000000020d1, 8800000002006}
+#0: FuncExit
+#0: FuncEntry 0x0000004d8970
+#1: FuncExit
+#2: FuncExit
+#1: MemoryAccess: @0x0000004d7fec 0x000000526ca0 size=4 is_write=0 shadow_mem=0x00200149b280 {0, 0, 0, 0}
+#2: MemoryAccess: @0x0000004d8098 0xfffff5003c00 size=4 is_write=0 shadow_mem=0x003fd400f000 {60000000209c, 4000000020aa, 0, 0}
+#1: MemoryAccess: @0x0000004d8000 0x000000526ca4 size=4 is_write=0 shadow_mem=0x00200149b280 {4c00000002008, 0, 0, 0}
+#2: MemoryAccess: @0x0000004d80ac 0x00000108e840 size=8 is_write=0 shadow_mem=0x00200423a100 {6000000020a1, 0, 0, 0}
+#1: MemoryAccess: @0x0000004d8014 0xfffff5003c40 size=4 is_write=1 shadow_mem=0x003fd400f100 {60000000209c, 4000000020ab, 0, 0}
+#2: MemoryAccess: @0x0000004d80b8 0xfffff5003c80 size=4 is_write=1 shadow_mem=0x003fd400f200 {60000000209c, 0, 0, 0}
+#1: MemoryAccess: @0x0000004d8024 0xfffff5003c00 size=4 is_write=1 shadow_mem=0x003fd400f000 {60000000209c, 4000000020aa, 8c00000002008, 0}
+#2: MemoryAccess: @0x0000004d80c8 0xfffff5003c40 size=4 is_write=0 shadow_mem=0x003fd400f100 {60000000209c, 440000000200a, 0, 0}
+==================
+WARNING: ThreadSanitizer: data race (pid=60933)
+  Write of size 4 at 0xfffff5003c00 by thread T1:
+    #0 thread1_routine(void*) <null> (data+0x4d8020)
+
+  Previous read of size 4 at 0xfffff5003c00 by thread T2:
+    #0 thread2_routine(void*) <null> (data+0x4d8094)
+
+  Location is heap block of size 1024 at 0xfffff5003c00 allocated by main thread:
+    #0 malloc /root/workdir/llvm-project/llvm-project-10.0.0/compiler-rt/lib/tsan/rtl/tsan_interceptors_posix.cpp:651 (data+0x45f214)
+    #1 main <null> (data+0x4d8470)
+
+  Thread T1 (tid=60935, running) created by main thread at:
+    #0 pthread_create /root/workdir/llvm-project/llvm-project-10.0.0/compiler-rt/lib/tsan/rtl/tsan_interceptors_posix.cpp:962 (data+0x42e904)
+    #1 thread_aff_create(int, unsigned long*, pthread_attr_t const*, void* (*)(void*), void*) <null> (data+0x4d8f9c)
+    #2 main <null> (data+0x4d8908)
+
+  Thread T2 (tid=60936, running) created by main thread at:
+    #0 pthread_create /root/workdir/llvm-project/llvm-project-10.0.0/compiler-rt/lib/tsan/rtl/tsan_interceptors_posix.cpp:962 (data+0x42e904)
+    #1 thread_aff_create(int, unsigned long*, pthread_attr_t const*, void* (*)(void*), void*) <null> (data+0x4d8f9c)
+    #2 main <null> (data+0x4d8948)
+
+SUMMARY: ThreadSanitizer: data race (/root/workdir/fence-demo-main/dependency-related/data+0x4d8020) in thread1_routine(void*)
+==================
+#1: FuncExit
+==================
+WARNING: ThreadSanitizer: data race (pid=60933)
+  Read of size 4 at 0xfffff5003c40 by thread T2:
+    #0 thread2_routine(void*) <null> (data+0x4d80c4)
+
+  Previous write of size 4 at 0xfffff5003c40 by thread T1:
+    #0 thread1_routine(void*) <null> (data+0x4d8010)
+
+  Location is heap block of size 1024 at 0xfffff5003c00 allocated by main thread:
+    #0 malloc /root/workdir/llvm-project/llvm-project-10.0.0/compiler-rt/lib/tsan/rtl/tsan_interceptors_posix.cpp:651 (data+0x45f214)
+    #1 main <null> (data+0x4d8470)
+
+  Thread T2 (tid=60936, running) created by main thread at:
+    #0 pthread_create /root/workdir/llvm-project/llvm-project-10.0.0/compiler-rt/lib/tsan/rtl/tsan_interceptors_posix.cpp:962 (data+0x42e904)
+    #1 thread_aff_create(int, unsigned long*, pthread_attr_t const*, void* (*)(void*), void*) <null> (data+0x4d8f9c)
+    #2 main <null> (data+0x4d8948)
+
+  Thread T1 (tid=60935, running) created by main thread at:
+    #0 pthread_create /root/workdir/llvm-project/llvm-project-10.0.0/compiler-rt/lib/tsan/rtl/tsan_interceptors_posix.cpp:962 (data+0x42e904)
+    #1 thread_aff_create(int, unsigned long*, pthread_attr_t const*, void* (*)(void*), void*) <null> (data+0x4d8f9c)
+    #2 main <null> (data+0x4d8908)
+
+SUMMARY: ThreadSanitizer: data race (/root/workdir/fence-demo-main/dependency-related/data+0x4d80c4) in thread2_routine(void*)
+==================
+#2: MemoryAccess: @0x0000004d80dc 0x00000108e848 size=8 is_write=0 shadow_mem=0x00200423a120 {6000000020a2, 0, 0, 0}
+#2: MemoryAccess: @0x0000004d80e8 0xfffff5003cc0 size=4 is_write=1 shadow_mem=0x003fd400f300 {60000000209c, 0, 0, 0}
+#2: FuncExit
+#0: FuncExit
+#0: FuncEntry 0x0000004d8980
+#0: FuncExit
+#0: MemoryAccess: @0x0000004d8998 0x00000108e840 size=8 is_write=0 shadow_mem=0x00200423a100 {6000000020a1, 8e00000002009, 0, 0}
+#0: MemoryAccess: @0x0000004d89ac 0xfffff5003c80 size=4 is_write=0 shadow_mem=0x003fd400f200 {60000000209c, 840000000200a, 0, 0}
+#0: MemoryAccess: @0x0000004d8850 0x000000526cac size=4 is_write=0 shadow_mem=0x00200149b2a0 {500000002097, c000000020bf, 0, 0}
+#0: MemoryAccess: @0x0000004d8a50 0x00000108e82c size=4 is_write=0 shadow_mem=0x00200423a0a0 {0, 0, 0, 0}
+#0: MemoryAccess: @0x0000004d8a70 0x000000526cac size=4 is_write=0 shadow_mem=0x00200149b2a0 {500000002097, c000000020bf, d000000020d9, 0}
+#0: FuncEntry 0x0000004d8a88
+#0: FuncEntry 0x0000004606b0
+#0: FuncExit
+#0: FuncExit
+#0: FuncExit
+#0: FuncEntry 0xfffff7eb6fc8
+#0: FuncExit
+#0: FuncEntry 0xfffff7eb6fc8
+#0: FuncExit
+#0: FuncEntry 0xfffff7eb6fc8
+#0: FuncExit
+#0: FuncEntry 0xfffff7eb9828
+#0: FuncExit
+#0: FuncEntry 0xfffff7eb9828
+#0: FuncExit
+#0: FuncEntry 0xfffff7eb9828
+#0: FuncExit
+ThreadSanitizer: reported 2 warnings
