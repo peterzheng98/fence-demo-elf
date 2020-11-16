@@ -1,0 +1,56 @@
+linux-vnMQMU:~/workdir/fence-demo-elf-main/sdiv-front # sh run.sh
+clang++ -o data asm.s libpthread_utils.cpp -O2 -lpthread
+0/0: Running sdiv 0 at times 0: Easy report: Total cnt: 4868 / 1000000
+0/1: Running sdiv 0 at times 1: Easy report: Total cnt: 7559 / 1000000
+0/2: Running sdiv 0 at times 2: Easy report: Total cnt: 7550 / 1000000
+0/3: Running sdiv 0 at times 3: Easy report: Total cnt: 7183 / 1000000
+0/4: Running sdiv 0 at times 4: Easy report: Total cnt: 6321 / 1000000
+0/5: Running sdiv 0 at times 5: Easy report: Total cnt: 6534 / 1000000
+0/6: Running sdiv 0 at times 6: Easy report: Total cnt: 10570 / 1000000
+0/7: Running sdiv 0 at times 7: Easy report: Total cnt: 2356 / 1000000
+0/8: Running sdiv 0 at times 8: Easy report: Total cnt: 4137 / 1000000
+0/9: Running sdiv 0 at times 9: Easy report: Total cnt: 10006 / 1000000
+clang++ -o data asm.s libpthread_utils.cpp -O2 -lpthread
+1/0: Running sdiv 1 at times 0: Easy report: Total cnt: 4082 / 1000000
+1/1: Running sdiv 1 at times 1: Easy report: Total cnt: 3931 / 1000000
+1/2: Running sdiv 1 at times 2: Easy report: Total cnt: 3779 / 1000000
+1/3: Running sdiv 1 at times 3: Easy report: Total cnt: 7626 / 1000000
+1/4: Running sdiv 1 at times 4: Easy report: Total cnt: 2317 / 1000000
+1/5: Running sdiv 1 at times 5: Easy report: Total cnt: 3983 / 1000000
+1/6: Running sdiv 1 at times 6: Easy report: Total cnt: 5007 / 1000000
+1/7: Running sdiv 1 at times 7: Easy report: Total cnt: 5775 / 1000000
+1/8: Running sdiv 1 at times 8: Easy report: Total cnt: 7026 / 1000000
+1/9: Running sdiv 1 at times 9: Easy report: Total cnt: 3406 / 1000000
+clang++ -o data asm.s libpthread_utils.cpp -O2 -lpthread
+2/0: Running sdiv 2 at times 0: Easy report: Total cnt: 9337 / 1000000
+2/1: Running sdiv 2 at times 1: Easy report: Total cnt: 6230 / 1000000
+2/2: Running sdiv 2 at times 2: Easy report: Total cnt: 6598 / 1000000
+2/3: Running sdiv 2 at times 3: Easy report: Total cnt: 6826 / 1000000
+2/4: Running sdiv 2 at times 4: Easy report: Total cnt: 5620 / 1000000
+2/5: Running sdiv 2 at times 5: Easy report: Total cnt: 6529 / 1000000
+2/6: Running sdiv 2 at times 6: Easy report: Total cnt: 5886 / 1000000
+2/7: Running sdiv 2 at times 7: Easy report: Total cnt: 7178 / 1000000
+2/8: Running sdiv 2 at times 8: Easy report: Total cnt: 7011 / 1000000
+2/9: Running sdiv 2 at times 9: Easy report: Total cnt: 8917 / 1000000
+clang++ -o data asm.s libpthread_utils.cpp -O2 -lpthread
+3/0: Running sdiv 3 at times 0: Easy report: Total cnt: 6935 / 1000000
+3/1: Running sdiv 3 at times 1: Easy report: Total cnt: 6116 / 1000000
+3/2: Running sdiv 3 at times 2: Easy report: Total cnt: 966 / 1000000
+3/3: Running sdiv 3 at times 3: Easy report: Total cnt: 2717 / 1000000
+3/4: Running sdiv 3 at times 4: Easy report: Total cnt: 6482 / 1000000
+3/5: Running sdiv 3 at times 5: Easy report: Total cnt: 7648 / 1000000
+3/6: Running sdiv 3 at times 6: Easy report: Total cnt: 4803 / 1000000
+3/7: Running sdiv 3 at times 7: Easy report: Total cnt: 6975 / 1000000
+3/8: Running sdiv 3 at times 8: Easy report: Total cnt: 5999 / 1000000
+3/9: Running sdiv 3 at times 9: Easy report: Total cnt: 2773 / 1000000
+clang++ -o data asm.s libpthread_utils.cpp -O2 -lpthread
+4/0: Running sdiv 4 at times 0: Easy report: Total cnt: 2679 / 1000000
+4/1: Running sdiv 4 at times 1: Easy report: Total cnt: 5285 / 1000000
+4/2: Running sdiv 4 at times 2: Easy report: Total cnt: 4119 / 1000000
+4/3: Running sdiv 4 at times 3: Easy report: Total cnt: 3582 / 1000000
+4/4: Running sdiv 4 at times 4: Easy report: Total cnt: 6401 / 1000000
+4/5: Running sdiv 4 at times 5: Easy report: Total cnt: 8189 / 1000000
+4/6: Running sdiv 4 at times 6: Easy report: Total cnt: 7348 / 1000000
+4/7: Running sdiv 4 at times 7: Easy report: Total cnt: 5049 / 1000000
+4/8: Running sdiv 4 at times 8: Easy report: Total cnt: 8005 / 1000000
+4/9: Running sdiv 4 at times 9: Easy report: Total cnt: 1605 / 1000000
