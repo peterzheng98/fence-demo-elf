@@ -1,7 +1,8 @@
 import sys
 
 bash_build_cmd = '''
-python3 generate-bash.py {} > test{}.s
+python3 generate-asm.py {} > test{}.s
+cp test{}.s asm.s
 make elf
 '''
 
@@ -15,7 +16,7 @@ max_sdiv_cnt = int(sys.argv[1])
 each_run_time = int(sys.argv[2])
 output_str = ''
 for cur_sdiv in range(max_sdiv_cnt + 1):
-    output_str += bash_build_cmd.format(cur_sdiv, cur_sdiv)
+    output_str += bash_build_cmd.format(cur_sdiv, cur_sdiv, cur_sdiv)
     for run_time in range(each_run_time):
         output_str += bash_runtime_cmd.format(cur_sdiv, run_time, cur_sdiv, run_time, cur_sdiv, run_time, cur_sdiv, run_time)
 
