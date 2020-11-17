@@ -45,35 +45,25 @@ _Z15thread2_routinePv:                  // @_Z15thread2_routinePv
         adrp    x0, sig_start
         add     x0, x0, :lo12:sig_start
         mov     x29, sp
-
-        adrp    x21, B
-        ldr     x21, [x21, :lo12:B]
-        adrp    x22, R1
-        ldr     x22, [x22, :lo12:R1]
-        adrp    x23, A
-        ldr     x23, [x23, :lo12:A]
-
         bl      pthread_barrier_wait
-
-        ldr     w21, [x21]      // load B
-        dmb     ish             // add fence
-        ldr     w23, [x23]      // load A
-        str     w8, [x9]        // R1 = B;
+        adrp    x8, B
+        ldr     x8, [x8, :lo12:B]
+        adrp    x9, R1
+        ldr     x9, [x9, :lo12:R1]
+        adrp    x10, A
+        ldr     w8, [x8]
+        mov     x0, xzr
+        str     w8, [x9]
+        //APP
+        madd    xzr, x0, x0, x0
+        //NO_APP
+        //APP
+        //NO_APP
+        ldr     x8, [x10, :lo12:A]
         adrp    x9, R2
         ldr     x9, [x9, :lo12:R2]
-        str     w23, [x9]       // R2 = A
-        // mov     x0, xzr
-        
-        //APP
-        // madd    xzr, x0, x0, x0
-        //NO_APP
-        //APP
-        //NO_APP
-        // ldr     x8, [x10, :lo12:A]
-        // adrp    x9, R2
-        // ldr     x9, [x9, :lo12:R2]
-        // ldr     w8, [x8]
-        // str     w8, [x9]
+        ldr     w8, [x8]
+        str     w8, [x9]
         ldp     x29, x30, [sp], #16     // 16-byte Folded Reload
         ret
 .Lfunc_end1:
