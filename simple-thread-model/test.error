@@ -1,0 +1,63 @@
+#0: FuncEntry 0x007ff7d2cd24
+#0: FuncEntry 0x0000004c4afc
+#0: FuncEntry 0x007ff7fddbd8
+#0: FuncExit
+#0: FuncExit
+#0: FuncEntry 0x0000004c4b20
+#1: FuncEntry 0x000000427760
+#1: MemoryAccess: @0x0000004c49cc 0x000000ff6218 size=4 is_write=1 shadow_mem=0x000803fd8860 {0, 0, 0, 0}
+#1: MemoryAccess: @0x0000004c49ec 0x000000ff621c size=4 is_write=1 shadow_mem=0x000803fd8860 {4400000002002, 0, 0, 0}
+#1: FuncExit
+#2: FuncEntry 0x000000427760
+#0: FuncExit
+#2: MemoryAccess: @0x0000004c4a40 0x000000ff621c size=4 is_write=0 shadow_mem=0x000803fd8860 {4400000002002, 4500000002003, 0, 0}
+#0: FuncEntry 0x0000004c4b34
+#0: FuncExit
+#0: FuncEntry 0x0000004c4b48
+==================
+WARNING: ThreadSanitizer: data race (pid=1314)
+  Read of size 4 at 0x000000ff621c by thread T2:
+    #0 thread2 <null> (test+0x4c4a3c)
+
+  Previous write of size 4 at 0x000000ff621c by thread T1:
+    #0 thread1 <null> (test+0x4c49e8)
+
+  Location is global 'b' of size 4 at 0x000000ff621c (test+0x000000ff621c)
+
+  Thread T2 (tid=1317, running) created by main thread at:
+    #0 pthread_create /home/pi/LLVM/compiler-rt/lib/tsan/rtl/tsan_interceptors_posix.cpp:962:3 (test+0x42aae4)
+    #1 main <null> (test+0x4c4b1c)
+
+  Thread T1 (tid=1316, finished) created by main thread at:
+    #0 pthread_create /home/pi/LLVM/compiler-rt/lib/tsan/rtl/tsan_interceptors_posix.cpp:962:3 (test+0x42aae4)
+    #1 main <null> (test+0x4c4af8)
+
+SUMMARY: ThreadSanitizer: data race (/home/pi/projects/test+0x4c4a3c) in thread2
+==================
+#2: MemoryAccess: @0x0000004c4a60 0x000000ff6224 size=4 is_write=1 shadow_mem=0x000803fd8880 {0, 0, 0, 0}
+#2: MemoryAccess: @0x0000004c4a80 0x000000ff6218 size=4 is_write=0 shadow_mem=0x000803fd8860 {4400000002002, 4500000002003, 0, 0}
+==================
+WARNING: ThreadSanitizer: data race (pid=1314)
+  Read of size 4 at 0x000000ff6218 by thread T2:
+    #0 thread2 <null> (test+0x4c4a7c)
+
+  Previous write of size 4 at 0x000000ff6218 by thread T1:
+    #0 thread1 <null> (test+0x4c49c8)
+
+  Location is global 'a' of size 4 at 0x000000ff6218 (test+0x000000ff6218)
+
+  Thread T2 (tid=1317, running) created by main thread at:
+    #0 pthread_create /home/pi/LLVM/compiler-rt/lib/tsan/rtl/tsan_interceptors_posix.cpp:962:3 (test+0x42aae4)
+    #1 main <null> (test+0x4c4b1c)
+
+  Thread T1 (tid=1316, finished) created by main thread at:
+    #0 pthread_create /home/pi/LLVM/compiler-rt/lib/tsan/rtl/tsan_interceptors_posix.cpp:962:3 (test+0x42aae4)
+    #1 main <null> (test+0x4c4af8)
+
+SUMMARY: ThreadSanitizer: data race (/home/pi/projects/test+0x4c4a7c) in thread2
+==================
+#2: MemoryAccess: @0x0000004c4aa0 0x000000ff6220 size=4 is_write=1 shadow_mem=0x000803fd8880 {8500000002003, 0, 0, 0}
+#2: FuncExit
+#0: FuncExit
+#0: FuncExit
+ThreadSanitizer: reported 2 warnings
